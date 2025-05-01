@@ -1,0 +1,18 @@
+.nav__list {
+  display: flex;
+  gap: 20px;
+  > li {
+    border-radius: 50%/ 100%;
+    padding: 15px 20px;
+    > a {
+      color: white;
+    }
+
+    &:hover {
+      background-color: white;
+      > a {
+        color: black;
+      }
+    }
+  }
+}

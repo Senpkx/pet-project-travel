@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <script src="scripts/main.js" type="module" defer></script>
+    <script src="./scripts/carousel.js" type="module" defer></script>
+    <script src="./scripts/aboudUcNextBtn.js" type="module" defer></script>
+    <script src="./scripts/aboudUcPrevBtn.js" type="module" defer></script>
+    <script src="./scripts/centerCard.js" type="module" defer></script>
+    <script src="./scripts/createCard.js" type="module" defer></script>
+    <script src="./scripts/topToursNextBtn.js" type="module" defer></script>
+    <script src="./scripts/topToursPrevBtn.js" type="module" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <a href="/">
+                        <img class="logo" src="./icons/logo.svg" alt="#">
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Destination">Destination</a></li>
+                            <li><a href="/">Gallery</a></li>
+                            <li><a href="/">Package</a></li>
+                            <li><a href="/">About Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__right">
+                        <button class="btn">
+                            <img src="./icons/earth.svg" alt="#">
+                            ENG
+                            <img src="./icons/arrow.svg" alt="">
+                        </button>
+                        <a class="contact" href="!#">
+                            <img src="./icons/phone.svg" alt="#">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__footer">
+            <div class="container">
+                <div class="header__footer-content">
+                    <h1>Pack your bags, let's go<br /> somewhere amazing</h1>
+                    <div class="header__footer-info">
+                        <h2>Hidden gems, breathtaking views, untorgettable adventures-where<br /> will you go next?</h2>
+                        <button class="header-btn">Book now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="about_uc">
+            <div class="container">
+                <div class="teg">
+                    <p style="color:#000">/About Uc</p>
+                </div>
+                <div class="about_uc__header">
+                    <div class="about_uc__header-title">
+                        <h2>What's so special<br /> about this?</h2>
+                    </div>
+
+                    <div class="about_uc__header-info">
+                        <p>Save more on your trips with exclusive discounts, seasonal
+                            promotions, and<br /> unbeatable
+                            deals
+                            for unforgettable
+                            adventures.</p>
+                        <button class="about_uc__header-button">Learn More
+                            <img src="./icons/rigth-arrow-white.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="about_uc-cards">
+                    <div class="about_uc-card">
+                        <div class="about_uc-section">
+                            <img class="about_uc-section-img" src="./images/1.jpg" alt="">
+                            01
+                        </div>
+                        <div class="about_uc-description">
+                            We don't just plan vacations; we create journeys<br /> tailored to your dreams, ensuring
+                            every
+                            moment is
+                            unforgettable.
+                        </div>
+                    </div>
+                    <div class="about_uc-card ">
+                        <div class=" about_uc-section ">
+                            <img class=" about_uc-section-img" src="./images/2.jpg" alt="">
+                            02
+                        </div>
+                        <div class="about_uc-description">
+                            With our trusted local partners, you'll discover<br /> hidden spots and cultural experiences
+                            that
+                            most<br /> travelers never get to
+                            see.
+                        </div>
+                    </div>
+                    <div class="about_uc-card not-visible  ">
+                        <div class="about_uc-section">
+                            <img class="about_uc-section-img" src="./images/3.jpeg" alt="">
+                            03
+                        </div>
+                        <div class="about_uc-description">
+                            With our trusted local partners, you'll discover<br /> hidden spots and cultural experiences
+                            that
+                            most<br /> travelers never get to
+                            see.
+                        </div>
+                    </div>
+                    <div class="about_uc-card not-visible">
+                        <div class="about_uc-section">
+                            <img class="about_uc-section-img" src="./images/4.jpg" alt="">
+                            04
+                        </div>
+                        <div class="about_uc-description">
+                            With our trusted local partners, you'll discover<br /> hidden spots and cultural experiences
+                            that
+                            most<br /> travelers never get to
+                            see.
+                        </div>
+                    </div>
+                    <div class="about_uc-card not-visible">
+                        <div class="about_uc-section">
+                            <img class="about_uc-section-img" src="./images/5.jpg" alt="">
+                            05
+                        </div>
+                        <div class="about_uc-description">
+                            With our trusted local partners, you'll discover<br /> hidden spots and cultural experiences
+                            that
+                            most<br /> travelers never get to
+                            see.
+                        </div>
+                    </div>
+                </div>
+                <div class="about_uc-footer">
+                    <div class="progress_bar">
+                        <div class="current"></div>
+                    </div>
+                    <div class="toggle">
+                        <button class="prev about_uc_prev_btn">
+                            <img src="./icons/one-left-arrow.svg" alt="">
+                        </button>
+                        <button class="next about_uc_next_btn ">
+                            <img src="./icons/one-right-arrow-white.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="destination">
+            <div class="container">
+                <div class="teg">
+                    /Our Destination
+                </div>
+                <div class="destination__header">
+                    <div class="destination__header-title">
+                        <h2>Your next favorite<br /> place awaits</h2>
+                    </div>
+                    <div class="destination__header-info">
+                        <p>Get the best value for your trips with exclusive discounts, seasonal<br />
+                            promotions, anu dedis lu save wille explorine trie worle.</p>
+                        <button class="see_all-btn">
+                            <p>See All</p>
+                            <img src="./icons/rigth-arrow-white.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="destination__cards">
+                    <div class="destination__card destination__card-italia">
+                        <div class="destination__card-title">
+                            <p>12 Destination</p>
+                        </div>
+                        <div class="destination__card-country">
+                            <p>Italy</p>
+                        </div>
+                    </div>
+                    <div class="destination__card destination__card-japan">
+                        <div class="destination__card-title">
+                            <p>15 Destination</p>
+                        </div>
+                        <div class="destination__card-country">
+                            <p>Japan</p>
+                        </div>
+                    </div>
+                    <div class="destination__card destination__card-indonesia">
+                        <div class="destination__card-title">
+                            <p>14 Destination</p>
+                        </div>
+                        <div class="destination__card-country">
+                            <p>Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top__tours">
+            <div class="container">
+                <div class="top__tours-header">
+                    <div class="teg">
+                        /Top Tours
+                    </div>
+                    <div class="top__tours-header-info">
+                        <div class="top__tours-header-info-title">
+                            <h2>Top tours to spark your<br />
+                                wanderlust</h2>
+                        </div>
+                        <div class="top__tours-header-info-text">
+                            <p>Explore our curated selection of must-visit destinations, complete with
+                                unbeatable<br />
+                                orices, deldlieu tunerdrles, ane uniorgel dole experences. Your Next daventure<br />
+                                Stalls
+                                nere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="top__tours-cards-management">
+                    <div class="progress_bar">
+                        <div class="progress_bar_current"></div>
+
+                    </div>
+                    <div class="card-number">
+                        <p>1</p>/18
+                    </div>
+                    <div class="buttons">
+                        <button class="prev top_tours_prev_btn">
+                            <img src="./icons/one-left-arrow.svg" alt="">
+                        </button>
+                        <button class="next top_tours_next_btn">
+                            <img src="./icons/one-right-arrow-white.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="top__tours-cards">
+
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="container">
+                <div class="teg testimonial_teg">
+                    /testimonial
+                </div>
+                <div class="testimonial_body">
+                    <h2>
+                        I've been on countless trips, but this one was different. Everything was
+                        perfectly
+                        organized, and the local insights made it truly unique.<p> Can't wait for my next
+                            adventure!
+                        </p>
+                    </h2>
+                    <div class="people">
+                        <img src="https://habrastorage.org/getpro/megamozg/post_images/334/84a/564/33484a564703ba0e5d3bcf50482dc70a.jpg"
+                            alt="#">
+                        <div class="testimonial_center_card">
+                            <img src="https://avatars.mds.yandex.net/i?id=bf4d197cd2e4070687f76cf390fd7282_l-5239122-images-thumbs&n=13"
+                                alt="#">
+                            <p>James Carter</p>
+                            <p>The adventure journalist</p>
+                        </div>
+                        <img src="https://avatars.mds.yandex.net/i?id=8f6c775b9767d9510cc97cd61961bb0f_l-5246350-images-thumbs&n=13"
+                            alt="#">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_header">
+                    <div class="footer_header_info">
+                        <h2>Pack your bags, your
+                            <p> adventure awaits!</p>
+                        </h2>
+                        <button class="button">
+                            <a href="">Book Vacation</a>
+                            <img src="./icons/rigth-arrow.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="footer_header_socials">
+                        <a href="youtube.com">Youtube</a>
+                        <a href="instagram.com">Instagram</a>
+                        <a href="facebook.com">Facebook</a>
+                    </div>
+                </div>
+                <div class="horizontal_line"></div>
+                <div class="footer_first_navigation">
+                    <ul class="explore">
+                        <li> <a href="">Explore</a></li>
+                        <li> <a href="">Destination</a></li>
+                        <li> <a href="">Top Tours</a></li>
+                        <li> <a href="">Travel Guides</a></li>
+                        <li> <a href="">Adventure</a></li>
+                    </ul>
+
+                    <ul class="footer_about_uc">
+                        <li> <a href="">About Uc</a></li>
+                        <li> <a href="">Our Story</a></li>
+                        <li> <a href="">Testimoniales</a></li>
+                        <li> <a href="">Commitment</a></li>
+                        <li> <a href="">Cappers</a></li>
+                    </ul>
+                    <ul class="support">
+                        <li> <a href="">Support</a></li>
+                        <li> <a href="">Destination</a></li>
+                        <li> <a href="">Top Tours</a></li>
+                        <li> <a href="">Travel Guides</a></li>
+                        <li> <a href="">Adventure</a></li>
+                    </ul>
+                </div>
+                <div class="horizontal_line"></div>
+
+                <div class="footer_second_navigation header__top ">
+                    <div class="container">
+                        <div class="header__top-row">
+                            <a href="/">
+                                <img class="logo" src="./icons/logo.svg" alt="#">
+                            </a>
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/Destination">Destination</a></li>
+                                    <li><a href="/">Gallery</a></li>
+                                    <li><a href="/">Package</a></li>
+                                    <li><a href="/">About Us</a></li>
+                                </ul>
+                            </nav>
+                            <div class="header__right">
+                                <button class="btn">
+                                    <img src="./icons/earth.svg" alt="#">
+                                    ENG
+                                    <img src="./icons/arrow.svg" alt="">
+                                </button>
+                                <a class="contact" href="!#">
+                                    <img src="./icons/phone.svg" alt="#">
+                                    Contact Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <footer>
+
+    </footer>
+    </div>
+</body>
+
+</html>

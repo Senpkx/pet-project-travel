@@ -1,0 +1,35 @@
+.about_uc-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.progress_bar {
+  background-color: #9d9999;
+  width: 300px;
+  height: 4px;
+  border-radius: 5%/200%;
+  padding: 0;
+}
+.current {
+  padding: 0;
+  background-color: #000000;
+  width: 120px;
+  height: 4px;
+  border-radius: 5%/200%;
+  transition: width 0.4s ease;
+}
+.prev {
+  display: inline-flex;
+  border: solid 1px;
+  padding: 8px 3px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.next {
+  display: inline-flex;
+  border: solid 1px;
+  background-color: #000000;
+  padding: 8px 3px;
+  padding: 10px;
+  border-radius: 50%;
+}

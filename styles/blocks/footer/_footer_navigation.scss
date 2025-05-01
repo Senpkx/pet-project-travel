@@ -1,0 +1,29 @@
+.footer_first_navigation {
+  margin: 50px 0 50px 0;
+  display: flex;
+  gap: 30px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    li {
+      a {
+        color: #908f8f;
+      }
+    }
+  }
+
+  ul li:nth-of-type(1) {
+    a {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+}
+
+.footer_second_navigation {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+.header__footer-content {
+  margin: 0 0 55px;
+
+  > h1 {
+    font-size: 72px;
+    font-weight: 500;
+  }
+}
+
+.header__footer-info {
+  display: flex;
+  justify-content: space-between;
+  > h2 {
+    font-size: 24px;
+    font-weight: 200;
+  }
+}
+.header-btn {
+  position: relative;
+  border-radius: 50%/ 150%;
+  padding: 0 70px 0 50px;
+  height: 52px;
+  color: black;
+  background-color: white;
+}
+.header-btn::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../icons/rigth-arrow.svg);
+  padding: 7.5px;
+  margin-left: 5px;
+  background-repeat: no-repeat;
+}

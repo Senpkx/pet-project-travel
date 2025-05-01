@@ -1,0 +1,29 @@
+.destination__header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.destination__header-title {
+  > p {
+    font-weight: 100;
+  }
+}
+
+.destination__header-info {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  font-weight: 200;
+  align-items: first baseline;
+  justify-items: start;
+}
+
+.see_all-btn {
+  display: flex;
+  align-self: last baseline;
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 12px;
+  gap: 50px;
+}

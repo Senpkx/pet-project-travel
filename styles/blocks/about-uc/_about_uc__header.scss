@@ -1,0 +1,26 @@
+.about_uc__header {
+  margin-left: 200px;
+}
+.about_uc__header-title {
+  font-size: 48px;
+}
+
+.about_uc__header-info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+}
+
+.about_uc__header-button {
+  display: flex;
+  background: none;
+  background-color: black;
+  color: white;
+  border-radius: 50%/150%;
+  padding: 15px 20px;
+  margin-right: 50px;
+  align-items: center;
+  > img {
+    padding-left: 20px;
+  }
+}

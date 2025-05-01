@@ -1,0 +1,31 @@
+.header__right {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  border: 1px solid;
+  padding: 15px 10px;
+  border-radius: 50%/ 100%;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.2);
+  color: white;
+  > img {
+    padding: 0 10px;
+  }
+}
+
+.contact {
+  display: flex;
+  border: 1px solid;
+  padding: 15px 20px 15px 10px;
+  border-radius: 50%/ 125%;
+  align-items: center;
+  color: white;
+
+  > img {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,21 @@
+@use "globals";
+
+@use "./blocks/header/header";
+@use "./blocks/header/nav";
+@use "./blocks/header/header__right";
+@use "./blocks/header/header__top";
+@use "./blocks/header/header__footer";
+@use "./blocks/about-uc/about_uc";
+@use "./blocks/about-uc/about_uc__header";
+@use "./blocks/about-uc/about_uc__card";
+@use "./blocks/about-uc/about_uc__footer";
+@use "./blocks/destination/destination__cards";
+@use "./blocks/destination/destination__header";
+@use "./blocks/destination/destination";
+@use "./blocks/Top-Tours/top__tours-cards";
+@use "./blocks/Top-Tours/top__tours-header";
+@use "./blocks/Top-Tours/top_tours";
+@use "./blocks/testimonial/testimonial";
+@use "./blocks/footer/footer";
+@use "./blocks/footer/footer_navigation";
+@use "./blocks/footer/footer_header";

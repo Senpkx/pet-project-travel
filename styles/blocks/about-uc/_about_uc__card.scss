@@ -1,0 +1,88 @@
+@keyframes first-card-animation-right {
+  0% {
+    translate: 0;
+  }
+
+  100% {
+    translate: 800px;
+  }
+}
+
+@keyframes last-card-animation-right {
+  0% {
+    translate: -100%;
+  }
+
+  100% {
+    translate: 0;
+  }
+}
+
+@keyframes first-card-animation-left {
+  0% {
+    translate: 0px;
+  }
+
+  100% {
+    translate: -800px;
+  }
+}
+@keyframes last-card-animation-left {
+  0% {
+    translate: 100%;
+  }
+
+  100% {
+    translate: 0;
+  }
+}
+.about_uc-cards {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about_uc-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px 40px 7px;
+  font-size: 26px;
+}
+
+.about_uc-section-img {
+  width: 200px;
+  height: 150px;
+  border-radius: 6%;
+}
+
+.about_uc-card {
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: rgb(209, 203, 203);
+  margin-right: 20px;
+  width: 100%;
+}
+
+.about_uc-description {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.not-visible {
+  display: none;
+}
+
+.first-card-traslate-left {
+  animation: first-card-animation-left 1s ease;
+}
+.last-card-traslate-left {
+  animation: last-card-animation-left 0.5s ease;
+}
+
+.first-card-translate-right {
+  animation: first-card-animation-right 1s ease;
+}
+
+.last-card-traslate-right {
+  animation: last-card-animation-right 0.5s ease;
+}
