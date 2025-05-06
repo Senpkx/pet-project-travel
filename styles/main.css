@@ -450,30 +450,36 @@ h2 {
 }
 
 .progress_bar_current {
-  width: 17px;
+  width: 0;
   height: 100%;
   padding: 0;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 5%/200%;
   transition: width 0.4s ease;
 }
 
 .card-number {
   display: flex;
-  color: #8b8b8b;
+  color: #787070;
 }
 .card-number > p {
-  color: #000000;
+  color: #000;
 }
 
 .top__tours-cards {
-  display: inline-flex;
+  display: flex;
   position: relative;
   margin-top: 30px;
   gap: 20px;
   font-size: 24px;
   align-items: flex-start;
   height: 650px;
+}
+@media screen and (max-width: 1250px) {
+  .top__tours-cards {
+    gap: 10px;
+    height: 500px;
+  }
 }
 
 .description {
@@ -484,8 +490,6 @@ h2 {
 .top__tours-card {
   flex: 0 0 auto;
   padding: 0;
-  width: auto;
-  height: auto;
   justify-items: center;
 }
 .top__tours-card > img {
@@ -494,23 +498,47 @@ h2 {
   object-fit: cover;
   border-radius: 4%;
 }
+@media screen and (max-width: 1250px) {
+  .top__tours-card > img {
+    width: 250px;
+    height: 270px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .top__tours-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 500px;
+    overflow-y: hidden;
+  }
+}
 
 .top__tours-card:first-child {
   position: absolute;
   left: -370px;
+}
+@media screen and (max-width: 1250px) {
+  .top__tours-card:first-child {
+    left: -260px;
+  }
 }
 
 .cardDescriptionContainer {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
-  font-size: 16px;
+  font-size: 12px;
   justify-items: center;
   padding-top: 10px;
 }
 .cardDescriptionContainer > p {
-  color: #8b8b8b;
+  color: #787070;
   width: 350px;
+}
+@media screen and (max-width: 1250px) {
+  .cardDescriptionContainer > p {
+    width: 270px;
+  }
 }
 .cardDescriptionContainer > div {
   display: flex;
@@ -519,17 +547,18 @@ h2 {
   padding-top: 20px;
 }
 .cardDescriptionContainer > div > button {
-  background-color: #110d0d;
-  color: #ffffff;
+  background-color: #000;
+  color: #fff;
   padding: 12px 15px 12px 15px;
   border-radius: 25%/60%;
 }
 .cardDescriptionContainer > div > button > a {
-  color: #ffffff;
+  color: #fff;
 }
 .cardDescriptionContainer > div > p {
-  border: 1px solid #bcb9b9;
+  border: 1px solid #787070;
   border-radius: 25%/60%;
+  margin: 5px;
   padding: 12px 15px 12px 15px;
 }
 
