@@ -37,6 +37,12 @@
     border: 2px solid #2a2929;
     padding: 15px 20px;
     border-radius: 50%/100%;
+    transition: border-color 0.5s ease;
+    margin: 8px 8px;
+    &:hover {
+      border-color: $white;
+      box-shadow: $light-gray 0 0 6px 1px;
+    }
   }
 }
 .horizontal_line {

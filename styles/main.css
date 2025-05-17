@@ -80,6 +80,7 @@ h2 {
 .nav__list > li {
   border-radius: 50%/100%;
   padding: 15px 20px;
+  transition: background-color 0.5s ease;
 }
 .nav__list > li > a {
   color: white;
@@ -643,6 +644,10 @@ h2 {
 }
 .footer_first_navigation ul li a {
   color: #908f8f;
+  transition: color 0.5s ease;
+}
+.footer_first_navigation ul li a:hover {
+  color: #fff;
 }
 .footer_first_navigation ul li:nth-of-type(1) a {
   color: #ffffff;
@@ -697,6 +702,12 @@ h2 {
   border: 2px solid #2a2929;
   padding: 15px 20px;
   border-radius: 50%/100%;
+  transition: border-color 0.5s ease;
+  margin: 8px 8px;
+}
+.footer_header_socials > a:hover {
+  border-color: #fff;
+  box-shadow: #d1cbcb 0 0 6px 1px;
 }
 
 .horizontal_line {

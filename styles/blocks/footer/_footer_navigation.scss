@@ -11,6 +11,10 @@
     li {
       a {
         color: #908f8f;
+        transition: color 0.5s ease;
+        &:hover {
+          color: $white;
+        }
       }
     }
   }
